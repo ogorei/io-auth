@@ -1,9 +1,9 @@
 import { isPlatform } from "@ionic/react";
 
-export const domain = "https://lzg2dndj.auth.dev.upbond.io";
-export const clientId = "kgOcktiFuBQBClNDDR9fv";
-// export const domain = "https://5af212ee.auth.dev.upbond.io";
-// export const clientId = "mpyrI32eB7-3mvVozFBVM";
+// export const domain = "https://lzg2dndj.auth.dev.upbond.io";
+// export const clientId = "kgOcktiFuBQBClNDDR9fv";
+export const domain = "https://5af212ee.auth.dev.upbond.io";
+export const clientId = "mpyrI32eB7-3mvVozFBVM";
 const appId = "com.fdcp.app";
 
 // Use `auth0Domain` in string interpolation below so that it doesn't
