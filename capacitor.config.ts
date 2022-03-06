@@ -1,7 +1,7 @@
 import { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "com.fdcp.app",
+  appId: "com.auth0.samples",
   appName: "fdcp",
   webDir: "build",
   plugins: {},

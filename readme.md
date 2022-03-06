@@ -1,5 +1,17 @@
 # Ionic React + Capacitor + Auth0 Sample
 
+現状）
+ios => origin error is displaying
+android  => 
+
+
+
+
+
+
+
+
+
 This sample demonstrates authentication with Auth0 in an [Ionic React](https://ionicframework.com/react) application.
 
 ## Development guide

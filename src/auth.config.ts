@@ -2,16 +2,18 @@ import { isPlatform } from "@ionic/react";
 
 // export const domain = "https://lzg2dndj.auth.dev.upbond.io";
 // export const clientId = "kgOcktiFuBQBClNDDR9fv";
-export const domain = "https://5af212ee.auth.dev.upbond.io";
-export const clientId = "mpyrI32eB7-3mvVozFBVM";
-const appId = "com.fdcp.app";
+export const domain = "dev-f40qx9bl.jp.auth0.com";
+export const clientId = "npDRfnk3TR09p7XPZWHddDlRYWCE5yLz";
+const appId = "com.auth0.samples";
 
-// Use `auth0Domain` in string interpolation below so that it doesn't
-// get replaced by the quickstart auto-packager
 const auth0Domain = domain;
 const iosOrAndroid = isPlatform('ios') || isPlatform('android');
 
 // export const callbackUri = 'http://localhost:3000';
+
+const unsupportedURL = `${appId}://${auth0Domain}/capacitor/${appId}/callback`
+const supportedURL = 'http://localhost:3000'
+
+
 export const callbackUri = iosOrAndroid
-  ? `${appId}://${auth0Domain}/capacitor/${appId}/callback`
-  : 'http://localhost:3000';
+  ? supportedURL : supportedURL;

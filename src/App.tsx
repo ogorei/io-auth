@@ -33,6 +33,7 @@ const App: React.FC = () => {
   useEffect(() => {
     CapApp.addListener("appUrlOpen", async ({ url }) => {
       if (url.startsWith(callbackUri)) {
+        console.log("🚀 ~ file: App.tsx ~ line 36 ~ CapApp.addListener ~ callbackUri", callbackUri)
         if (
           url.includes("state") &&
           (url.includes("code") || url.includes("error"))
