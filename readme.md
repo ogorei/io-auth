@@ -2,7 +2,7 @@
 
 現状
 iOS => auth0-spa-js (ERROR Displaying)
-android  => Running
+android  => Uri mismatch
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 
