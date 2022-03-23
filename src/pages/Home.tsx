@@ -25,7 +25,7 @@ const Home: React.FC = () => {
       <IonHeader>
         {/* this is the header title */}
         <IonToolbar>
-          <IonTitle>FDCP APP</IonTitle>
+          <IonTitle>YUTA</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent >

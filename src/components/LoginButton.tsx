@@ -7,8 +7,10 @@ const LoginButton: React.FC = () => {
 
   const login = async () => {
     const url = await buildAuthorizeUrl();
+    console.log(22,url);
+    
     await Browser.open({ url });
-    console.log("🚀 ~ file: LoginButton.tsx ~ line 11 ~ login ~ url", url)
+    
   };
 
   return <IonButton onClick={login}>ログインする</IonButton>;
