@@ -1,9 +1,5 @@
 # Ionic React + Capacitor + Auth0 Sample
 
-現状
-iOS => auth0-spa-js (ERROR Displaying)
-android  => Uri mismatch
-
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 
 
